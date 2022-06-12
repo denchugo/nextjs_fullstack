@@ -2,7 +2,7 @@
 
 import connectDB from "../../../../utils/database";
 import { ItemModel } from "../../../../utils/schemaModels"
-import auth from "../../../utils/auth"
+import auth from "../../../../utils/auth"
 
 const deleteItem = async(req, res) => {
   try{
